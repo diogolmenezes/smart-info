@@ -1,0 +1,11 @@
+{
+  "name": "smart-info",
+  "version": "1.0.0",
+  "description": "Show information and metric about node proccess, machine  and application",
+  "main": "lib/smart-info",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
