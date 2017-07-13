@@ -14,7 +14,7 @@
     "process",
     "status"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show information and metric about node proccess, machine and application",
   "author": "Diogo Menezes <diogolmenezes@gmail.com>",
   "repository": {
