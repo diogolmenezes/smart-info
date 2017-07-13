@@ -1,11 +1,37 @@
 {
   "name": "smart-info",
+  "keywords": [
+    "node",
+    "info",
+    "nodeinfo",
+    "process",
+    "status"
+  ],
+  "tags": [
+    "node",
+    "info",
+    "nodeinfo",
+    "process",
+    "status"
+  ],
   "version": "1.0.0",
-  "description": "Show information and metric about node proccess, machine  and application",
+  "description": "Show information and metric about node proccess, machine and application",
+  "author": "Diogo Menezes <diogolmenezes@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogolmenezes/smart-info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diogolmenezes/smart-info/issues"
+  },
+  "homepage": "https://github.com/diogolmenezes/smart-info#readme",
   "main": "lib/smart-info",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "clear;node_modules/mocha/bin/mocha -R spec --timeout 5000 "
   },
-  "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
